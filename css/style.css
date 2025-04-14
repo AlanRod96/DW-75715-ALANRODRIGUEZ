@@ -72,7 +72,7 @@
 /*MAIN*/
 
 #main {
-    height: 100vh;
+    min-height: 100vp;
     background-image: url(../images/fondo-sakura.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,6 +82,7 @@
 
 .main--texto {
     margin-top: 15%;
+    margin-bottom: 15%;
     font-weight: bold;
     color: rgb(229, 224, 224);
     text-shadow: 2px 2px 5px black;
@@ -154,4 +155,50 @@ footer {
     font-size: 35px;
     color: black;
     padding: 5px;
+}
+
+/* NOSOTROS*/
+
+.main--medicos {
+    display: inline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.main--medicos img{
+    height: 127.48px;
+}
+
+.main--medicos p {
+    padding: 2%;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0.679)
+}
+
+.main--medicos__1, .main--medicos__2, .main--medicos__3,.main--medicos__4,.main--medicos__5 {
+    display: flex;
+    margin: 1%;
+    padding: 5px;
+}
+
+/*TURNOS*/
+
+.main--turnosform form{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+/*TUS ESTUDIOS*/
+
+.main--estudios {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+/*CONTACTO*/
+
+.main--contacto {
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
