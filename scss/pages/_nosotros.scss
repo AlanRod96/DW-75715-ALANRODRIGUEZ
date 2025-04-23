@@ -1,0 +1,22 @@
+.main--medicos {
+    display: inline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.main--medicos img{
+    height: 127.48px;
+}
+
+.main--medicos p {
+    padding: 2%;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0.679)
+}
+
+.main--medicos__1, .main--medicos__2, .main--medicos__3,.main--medicos__4,.main--medicos__5 {
+    display: flex;
+    margin: 1%;
+    padding: 5px;
+}

@@ -1,204 +1,135 @@
-/*RESET*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*IMPORT LAYOUT*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-        /*INDEX*/
-
-/*GENERAL*/
 
 #body {
-    font-family: Helvetica;
+  font-family: Helvetica;
 }
-
-/*ESTILOS ENCABEZADO PROPIO
-
-#header {
-    background-color: #15396A;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-#header--nav {
-    margin-left: 2%;
-    margin-right: auto;
-}
-
-.header--nav__links {
-    list-style: none;
-}
-
-.header--nav__links li{
-    display: inline-block;
-    padding: 20px;
-    font-size: 18px;
-}
-
-.header--nav__links a {
-    font-size: 30px;
-    text-decoration: none;
-    color: white;
-}
-
-.header--nav__links a:hover {
-    color: rgb(138, 137, 137);
-}
-
-.header--logo {
-    display: flex;
-    align-items: center;
-    margin-right: 2%;
-}
-
-.header--logo h1{
-    margin-right: 15px;
-}
-
-.header--logo a{
-    font-size: 35px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-.header--logo img{
-    width: 75px;
-}
-
-*/
-
-/*MAIN*/
 
 #main {
-    min-height: 100vp;
-    background-image: url(../images/fondo-sakura.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+  min-height: 100vp;
+  background-image: url(../images/fondo-sakura.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
-
-.main--texto {
-    margin-top: 15%;
-    margin-bottom: 15%;
-    font-weight: bold;
-    color: rgb(229, 224, 224);
-    text-shadow: 2px 2px 5px black;
-}
-
-.main--texto h2 {
-    text-align: center;
-    font-size: 40px;
-    font-weight: bolder;
-}
-
-.main--texto p{
-    text-align: center;
-    font-size: 30px;
-}
-
-/*FOOTER*/
 
 footer {
-    flex-wrap: wrap;
-    background-color:#0d6efd;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
+  flex-wrap: wrap;
+  background-color: #0d6efd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.footer--ubicacion{
-    order: 1;
-    padding: 15px;
+.footer--ubicacion {
+  order: 1;
+  padding: 15px;
 }
 
 .footer--ubicacion__mapa {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer--ubicacion__mapa img {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .footer--ubicacion__direccion {
-    margin-top: 5px;
-    justify-items: center;
+  margin-top: 5px;
+  justify-items: center;
 }
 
 .footer--medio {
-    order: 3;
-    margin-top: auto;
+  order: 3;
+  margin-top: auto;
 }
 
-.footer--medio__contacto{
-    justify-items: center;
+.footer--medio__contacto {
+  justify-items: center;
 }
 
-.footer--medio__contacto ul{
-    list-style: none;
+.footer--medio__contacto ul {
+  list-style: none;
 }
 
 .footer--medio__copy {
-    margin-top: 25%;
-    justify-items: center;
+  margin-top: 25%;
+  justify-items: center;
 }
 
 .footer--redes {
-    order: 2;
+  order: 2;
 }
 
 .footer--redes i {
-    font-size: 35px;
-    color: black;
-    padding: 5px;
+  font-size: 35px;
+  color: black;
+  padding: 5px;
 }
 
-/* NOSOTROS*/
+/*IMPORT PAGES*/
+.main--texto {
+  margin-top: 15%;
+  margin-bottom: 15%;
+  font-weight: bold;
+  color: rgb(229, 224, 224);
+  text-shadow: 2px 2px 5px black;
+}
+
+.main--texto h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.main--texto p {
+  text-align: center;
+  font-size: 30px;
+}
 
 .main--medicos {
-    display: inline;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-size: 20px;
+  display: inline;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 20px;
 }
 
-.main--medicos img{
-    height: 127.48px;
+.main--medicos img {
+  height: 127.48px;
 }
 
 .main--medicos p {
-    padding: 2%;
-    margin-left: 5px;
-    background-color: rgba(255, 255, 255, 0.679)
+  padding: 2%;
+  margin-left: 5px;
+  background-color: rgba(255, 255, 255, 0.679);
 }
 
-.main--medicos__1, .main--medicos__2, .main--medicos__3,.main--medicos__4,.main--medicos__5 {
-    display: flex;
-    margin: 1%;
-    padding: 5px;
+.main--medicos__1, .main--medicos__2, .main--medicos__3, .main--medicos__4, .main--medicos__5 {
+  display: flex;
+  margin: 1%;
+  padding: 5px;
 }
 
-/*TURNOS*/
-
-.main--turnosform form{
-    margin-top: 15%;
-    margin-bottom: 15%;
+.main--turnosform form {
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
-
-/*TUS ESTUDIOS*/
 
 .main--estudios {
-    margin-top: 15%;
-    margin-bottom: 15%;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
-
-/*CONTACTO*/
 
 .main--contacto {
-    margin-top: 15%;
-    margin-bottom: 15%;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+{
+  "name": "dw-75715-alanrodriguez",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/AlanRod96/DW-75715-ALANRODRIGUEZ#readme",
+  "bugs": {
+    "url": "https://github.com/AlanRod96/DW-75715-ALANRODRIGUEZ/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanRod96/DW-75715-ALANRODRIGUEZ.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

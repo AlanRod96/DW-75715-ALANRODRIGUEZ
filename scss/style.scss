@@ -1,0 +1,11 @@
+/*IMPORT LAYOUT*/
+@use "./layout/reset";
+@use "./layout/main";
+@use "./layout/footer";
+
+/*IMPORT PAGES*/
+@use "./pages/index";
+@use "./pages/nosotros";
+@use "./pages/turnos";
+@use "./pages/tus-estudios";
+@use "./pages/contacto";

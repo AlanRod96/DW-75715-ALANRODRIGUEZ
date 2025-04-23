@@ -1,0 +1,55 @@
+footer {
+    flex-wrap: wrap;
+    background-color:#0d6efd;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.footer--ubicacion{
+    order: 1;
+    padding: 15px;
+}
+
+.footer--ubicacion__mapa {
+    display: flex;
+    justify-content: center;
+}
+
+.footer--ubicacion__mapa img {
+    width: 200px;
+    height: 200px;
+}
+
+.footer--ubicacion__direccion {
+    margin-top: 5px;
+    justify-items: center;
+}
+
+.footer--medio {
+    order: 3;
+    margin-top: auto;
+}
+
+.footer--medio__contacto{
+    justify-items: center;
+}
+
+.footer--medio__contacto ul{
+    list-style: none;
+}
+
+.footer--medio__copy {
+    margin-top: 25%;
+    justify-items: center;
+}
+
+.footer--redes {
+    order: 2;
+}
+
+.footer--redes i {
+    font-size: 35px;
+    color: black;
+    padding: 5px;
+}
